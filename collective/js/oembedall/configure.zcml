@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.js.oembedall">
+
+  <browser:resourceDirectory
+    name="collective.js.oembedall"
+    directory="resources"
+    />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.js.oembedall"
+      directory="profiles/default"
+      description='Extension profile for collective.js.oembedall.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
