@@ -3,7 +3,7 @@ Introduction
 
 This addon register the jquery plugin oembed-all_ in the Plone resource registry.
 
-Version: 12/28/2011
+Version: 2012-12-07 (github's master)
 
 How to use jquery.oembed
 ========================
